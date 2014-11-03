@@ -1,0 +1,28 @@
+
+.app-page {
+    flex: 1;
+    flex-direction: column;
+    padding: 100px 40px;
+    overflow: auto;
+}
+
+.app-page .text {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.app-page .item {
+    border: 1px solid white;
+    margin: 20px 0;
+    padding: 0 30px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+}

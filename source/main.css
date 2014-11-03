@@ -1,0 +1,24 @@
+
+@import url('./app/layout.css');
+@import url('./app/page.css');
+@import url('./theme/night.css');
+@import url('./theme/morning.css');
+
+body {
+    margin: 0;
+}
+
+body, textarea {
+    font-family: Optima;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    line-height: 2em;
+}
+
+body * {
+    /* box-shadow: 0 0 1px rgb(157, 157, 166); */
+}
+
+::-webkit-input-placeholder {
+    color: hsla(0, 100%, 100%, 0.6);
+}
